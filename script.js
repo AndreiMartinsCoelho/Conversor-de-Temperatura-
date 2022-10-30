@@ -16,7 +16,7 @@ for (let aux = 0; aux < inputs.length; aux++) {let input = inputs[aux];
                 kel.value = value + 273.15;
                 ran.value = (value * 1.8) + 491.67
                 break;
-            case "kahrenheit":
+            case "fahrenheit":
                 cel.value = (value - 32) / 1.8;
                 kel.value = ((value - 32) / 1.8) + 273.15;
                 ran.value = (value - 32) + 491.67;
