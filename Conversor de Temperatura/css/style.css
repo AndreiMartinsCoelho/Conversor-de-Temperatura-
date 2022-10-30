@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body{
+    background: linear-gradient( to left,#3300FF 6.25%, #00D1FF 53.12%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.conver{
+    width: 96vw;
+    height: 94vh;
+    margin: 9px;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(51, 1, 114, 1);
+    color: rgba(0, 0, 0, 1);
+    border-radius: 30px;
+    border: solid 3px white;
+}
+
+.title{
+    width: 88vw;
+    height: 7vh;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    border-radius: 40px;
+    border: solid 2px white;
+    margin-top: 40px;
+    margin-left: 3%;
+}
+
+h1{
+    color: white;
+    font-size: 1.5em;
+    align-items: center;
+    display: flex;
+}
+
+h2{
+    color: white;
+    font-size: 1.2em;
+    align-items: center;
+    display: flex;
+    margin-top: 40px;
+    margin-left: 13px;
+    justify-content: center;
+}
+
+.inputs{
+    width: 88vw;
+    height: 7vh;
+    align-items: center;
+    display: grid;
+    justify-content: center;
+    margin-top: 10px;
+    margin-left: 3%;
+}
+
+.input {
+    flex: 1 1 40%;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border-radius: 40px;
+    height: 7vh;
+    width: 77vw;
+    border: solid 3px black;
+    font-size: 1.2em;
+}
